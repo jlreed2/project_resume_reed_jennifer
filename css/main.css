@@ -9,6 +9,8 @@ html {
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	background-image: url("../img/dry_erase_board.jpg");
 	background-size: 1000px 1000px;
 	background-repeat: repeat;
@@ -20,4 +22,12 @@ body {
 	max-width: 900px;
 	margin: auto;
 	padding-top: 40px;
+}
+
+h1 {
+	color: #666699;
+}
+
+h2 {
+	color: #50bcb8;
 }
