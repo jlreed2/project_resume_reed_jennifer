@@ -1,0 +1,23 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+* : before,
+* : after {
+	box-sizing: inherit;
+}
+
+body {
+	background-image: url("images/dry_erase_board.jpg");
+	background-size: 1000px 1000px;
+	background-repeat: repeat;
+	font-family: 'Architects Daughter', cursive;
+	color: #333333;
+}
+
+#container {
+	max-width: 900px;
+	margin: auto;
+	padding-top: 40px;
+}
