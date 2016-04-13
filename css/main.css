@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background-image: url("images/dry_erase_board.jpg");
+	background-image: url("../img/dry_erase_board.jpg");
 	background-size: 1000px 1000px;
 	background-repeat: repeat;
 	font-family: 'Architects Daughter', cursive;
