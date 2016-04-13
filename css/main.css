@@ -43,7 +43,7 @@ h2 {
 	background-repeat: no-repeat;
 	width: 58px;
 	height: 58px;
-	padding: 0px 5px;
+	padding: 5px;
 	float: left;
 }
 
@@ -52,7 +52,7 @@ h2 {
 	background-repeat: no-repeat;
 	width: 58px;
 	height: 58px;
-	padding: 0px 5px;
+	padding: 5px;
 	float: left;
 }
 
@@ -61,7 +61,7 @@ h2 {
 	background-repeat: no-repeat;
 	width: 58px;
 	height: 58px;
-	padding: 0px 5px;
+	padding: 5px;
 	float: left;
 }
 
@@ -70,23 +70,32 @@ h2 {
 	background-repeat: no-repeat;
 	width: 58px;
 	height: 58px;
-	padding: 0px 5px;
+	padding: 5px;
 	float: left;
 }
 
 /* Hover Rotate */
-#fb:hover, #fb:focus, #fb:active {
+
+#fb:hover,
+#fb:focus,
+#fb:active {
 	transform: rotate(18deg);
 }
 
-#in:hover, #in:focus, #in:active {
+#in:hover,
+#in:focus,
+#in:active {
 	transform: rotate(-25deg);
 }
 
-#wp:hover, #wp:focus, #wp:active {
+#wp:hover,
+#wp:focus,
+#wp:active {
 	transform: rotate(12deg);
 }
 
-#pin:hover, #pin:focus, #pin:active {
+#pin:hover,
+#pin:focus,
+#pin:active {
 	transform: rotate(-19deg);
 }
