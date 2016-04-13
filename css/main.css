@@ -21,7 +21,7 @@ body {
 #container {
 	max-width: 900px;
 	margin: auto;
-	padding-top: 0.25em;
+	padding: 0.25em;
 }
 
 /* header */
@@ -83,19 +83,13 @@ footer h2 {
 	color: #87a4ca;
 }
 
-#social {
-	width: 350px;
-	height: 58px;
-	float: right;
-}
-
 #fb {
 	background-image: url("../img/facebook.png");
 	background-repeat: no-repeat;
 	width: 58px;
 	height: 58px;
 	padding: 5px;
-	float: left;
+	float: right;
 }
 
 #in {
@@ -104,7 +98,7 @@ footer h2 {
 	width: 58px;
 	height: 58px;
 	padding: 5px;
-	float: left;
+	float: right;
 }
 
 #wp {
@@ -113,7 +107,7 @@ footer h2 {
 	width: 58px;
 	height: 58px;
 	padding: 5px;
-	float: left;
+	float: right;
 }
 
 #pin {
@@ -122,7 +116,7 @@ footer h2 {
 	width: 58px;
 	height: 58px;
 	padding: 5px;
-	float: left;
+	float: right;
 }
 
 /* Hover Rotate */
