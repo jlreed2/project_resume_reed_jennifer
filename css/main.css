@@ -21,7 +21,7 @@ body {
 #container {
 	max-width: 900px;
 	margin: auto;
-	padding-top: 40px;
+	padding-top: 0.25em;
 }
 
 /* header */
@@ -43,13 +43,41 @@ header p {
 	line-height: 40%;
 }
 
+@media (min-width: 600px) {
+	#info {
+		float: left;
+	}
+	figure {
+		float: right;
+	}
+}
+
 /* Main content */
+
+#content {
+	clear: both;
+}
 
 h2 {
 	color: #50bcb8;
 }
 
+@media (min-width: 600px) {
+	#skills {
+		float: left;
+		width: 50%;
+	}
+	#interests {
+		float: right;
+		width: 50%;
+	}
+}
+
 /* Footer */
+
+footer {
+	clear: both;
+}
 
 footer h2 {
 	color: #87a4ca;
@@ -121,4 +149,15 @@ footer h2 {
 #pin:focus,
 #pin:active {
 	transform: rotate(-19deg);
+}
+
+@media (min-width: 600px) {
+	footer h2 {
+		float: left;
+		width: 50%;
+	}
+	#social {
+		float: right;
+		width: 50%;
+	}
 }
