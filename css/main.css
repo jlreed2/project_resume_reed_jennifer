@@ -24,12 +24,35 @@ body {
 	padding-top: 40px;
 }
 
+/* header */
+
 h1 {
 	color: #666699;
 }
 
+h1 a {
+	text-decoration: none;
+}
+
+h1 a:visited {
+	color: #87a4ca;
+}
+
+header h4,
+header p {
+	line-height: 40%;
+}
+
+/* Main content */
+
 h2 {
 	color: #50bcb8;
+}
+
+/* Footer */
+
+footer h2 {
+	color: #87a4ca;
 }
 
 #social {
