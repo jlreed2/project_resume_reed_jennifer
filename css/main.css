@@ -31,3 +31,62 @@ h1 {
 h2 {
 	color: #50bcb8;
 }
+
+#social {
+	width: 350px;
+	height: 58px;
+	float: right;
+}
+
+#fb {
+	background-image: url("../img/facebook.png");
+	background-repeat: no-repeat;
+	width: 58px;
+	height: 58px;
+	padding: 0px 5px;
+	float: left;
+}
+
+#in {
+	background-image: url("../img/linkedin.png");
+	background-repeat: no-repeat;
+	width: 58px;
+	height: 58px;
+	padding: 0px 5px;
+	float: left;
+}
+
+#wp {
+	background-image: url("../img/wordpress.png");
+	background-repeat: no-repeat;
+	width: 58px;
+	height: 58px;
+	padding: 0px 5px;
+	float: left;
+}
+
+#pin {
+	background-image: url("../img/pinterest.png");
+	background-repeat: no-repeat;
+	width: 58px;
+	height: 58px;
+	padding: 0px 5px;
+	float: left;
+}
+
+/* Hover Rotate */
+#fb:hover, #fb:focus, #fb:active {
+	transform: rotate(18deg);
+}
+
+#in:hover, #in:focus, #in:active {
+	transform: rotate(-25deg);
+}
+
+#wp:hover, #wp:focus, #wp:active {
+	transform: rotate(12deg);
+}
+
+#pin:hover, #pin:focus, #pin:active {
+	transform: rotate(-19deg);
+}
