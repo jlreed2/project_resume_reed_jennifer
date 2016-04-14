@@ -12,7 +12,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: url("../img/dry_erase_board.jpg");
-	background-size: 1000px 1000px;
+	background-size: 100%;
 	background-repeat: repeat;
 	font-family: 'Architects Daughter', cursive;
 	color: #333333;
@@ -25,6 +25,10 @@ body {
 }
 
 /* header */
+
+header {
+	background-image: url("../img/dry_erase_board.jpg");
+}
 
 h1 {
 	color: #666699;
