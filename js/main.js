@@ -3,6 +3,9 @@ $( document ).ready( function( ) {
 	//Sticky plugin:
 	$( '.pinned' ).sticky( { topSpacing:0 } );
 
+	//Sliphover plugin:
+	$( '#jenn' ).sliphover( );
+
 	//Written code - adds new paragraph under each selected element
 	$( '#bsb' ).after( '<p>Dec 2013 - present</p>' );
 	$( '#junior' ).after( '<p>May 2012 - October 2013</p>' );
