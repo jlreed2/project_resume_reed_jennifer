@@ -40,12 +40,22 @@ header p {
 	line-height: 40%;
 }
 
+img {
+	max-width: 25%;
+}
+
 @media (min-width: 600px) {
 	#info {
 		float: left;
 	}
 	figure {
 		float: right;
+	}
+}
+
+@media (min-width: 600px) {
+	img {
+		max-width: 100%;
 	}
 }
 
